@@ -5,6 +5,11 @@ h2 {
   display: inline;
 }
 
+p {
+  position: relative;
+  margin: 0 auto;
+}
+
 .units {
   position: relative;
   top: -10px;
