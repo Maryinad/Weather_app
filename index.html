@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body class="bodyContainer">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form id="search-form">
+
+            <input type="text" id="search-text-input" placeholder="Enter the city" />
+            <input type="submit" value="Search" class="btn btn-info" />
+            <input type="button" id="button-current" value="Current" class="btn btn-secondary"/>
+          </form>
+          <div class="row cityContainer" >
+            <div class="col-6" >
+                <div class="card">
+                    <div class="card-body">
+              <h1>Kharkiv</h1>
+             
+               <h2>25°</h2>
+               
+               <span class="units">
+                <a href="#" id="celsius-link">°C</a> | 
+                <a href="#" id="farenheit-link">°F</a>
+              </span>
+
+              <h3 id="currentDate">17.02</h3>
+              <h3 id = "currentDay">Friday</h3>
+              <h3 id = "currentTime">17:30</h3>
+              </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/sun.svg" alt="sun" width="200px" />
+            </div>
+          </div>
+          <div class="row" class="week-weather">
+            <div class="col-2">
+               
+        <div class="card">
+            <div class="card-body">
+                <p>Sunday</p>
+                <p>18.07</p>
+                <p>☀️</p>
+            </div>
+        </div>
+        <h2 class="temp">27°</h2>
+            
+                </div>
+                 <div class="col-2">
+                <div class="card">
+            <div class="card-body">
+                <p>Saturday</p>
+                <p>19.07</p>
+                <p>🌤</p>
+
+            </div>
+        </div>
+        <h2 class="temp">29°</h2>
+                </div>
+                 <div class="col-2">
+                <div class="card">
+            <div class="card-body">
+                <p>Monday</p>
+                <p>20.07</p>
+                <p>☀️</p>
+            </div>
+        </div>
+        <h2 class="temp">25°</h2>
+                </div>
+                 <div class="col-2">
+                <div class="card">
+            <div class="card-body">
+                <p>Tuesday</p>
+                <p>21.07</p>
+                <p>⛅️</p>
+            </div>
+        </div>
+        <h2 class="temp">26°</h2>
+                </div>
+                 <div class="col-2">
+                <div class="card">
+            <div class="card-body">
+                <p>Wednesday</p>
+                <p>22.07</p>
+                <p>⛅️</p>
+            </div>
+        </div>
+        <h2 class="temp">25°</h2>
+                </div>
+                 <div class="col-2">
+               <div class="card">
+            <div class="card-body">
+                <p>Tuesday</p>
+                <p>23.07</p>
+                <p>☀️</p>
+            </div>
+        </div>
+        <h2 class="temp">29°</h2>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js">
+      
+    </script>
+   
+  </body>
+</html>

@@ -1,0 +1,38 @@
+h1 {
+  color: #ff6684;
+}
+h2 {
+  display: inline;
+}
+
+.units {
+  position: relative;
+  top: -10px;
+  font-size: 12px;
+}
+
+.bodyContainer {
+  background: #00bfa6;
+}
+
+.row.cityContainer {
+  margin: 30px 0;
+}
+
+.row.cityContainer h3 {
+  color: #00bfa6;
+}
+
+.row.cityContainer h2 {
+  color: #3f3d56;
+  font-style: italic;
+}
+
+.bodyContainer {
+  margin: 30px 0;
+}
+
+.temp {
+  color: #3f3d56;
+  font-style: italic;
+}
